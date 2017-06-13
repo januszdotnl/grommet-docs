@@ -4,7 +4,7 @@ import en from 'react-intl/locale-data/en';
 import routes from './routes';
 import { Router, useRouterHistory } from 'react-router';
 import { createHistory } from 'history';
-import { logPageView } from './lib/analytics';
+import { logPageView } from './utils/analytics';
 
 addLocaleData(en);
 

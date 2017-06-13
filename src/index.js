@@ -6,7 +6,7 @@ import ReactDOMServer from 'react-dom/server';
 import { AppContainer } from 'react-hot-loader';
 import { match, RouterContext, useRouterHistory } from 'react-router';
 import { createMemoryHistory } from 'history';
-import { initialize } from './lib/analytics';
+import { initialize } from './utils/analytics';
 import template from './template.ejs';
 import App from './App';
 
