@@ -1,7 +1,7 @@
 import ReactGa from 'react-ga';
 
 export default function logPageView() {
-  if (window) {
+  if (typeof window !== undefined) {
     ReactGa.set({
       page: window.location.pathname
     });
