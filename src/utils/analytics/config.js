@@ -1,4 +1,4 @@
 export default {
   trackerId: 'UA-99690204-1',
-  debug: true
+  debug: false
 };
